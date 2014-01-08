@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF7247A1601437D006659FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF724791601437D006659FF /* Cocoa.framework */; };
+		DDF724841601437D006659FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF724821601437D006659FF /* InfoPlist.strings */; };
+		DDF724861601437D006659FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724851601437D006659FF /* main.m */; };
+		DDF7248A1601437D006659FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DDF724881601437D006659FF /* Credits.rtf */; };
+		DDF7248D1601437D006659FF /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7248C1601437D006659FF /* PCAppDelegate.m */; };
+		DDF724901601437D006659FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF7248E1601437D006659FF /* MainMenu.xib */; };
+		DDF724931601437D006659FF /* CaptureTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF724911601437D006659FF /* CaptureTest.xcdatamodeld */; };
+		DDF7249B1601437D006659FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF7249A1601437D006659FF /* SenTestingKit.framework */; };
+		DDF7249C1601437D006659FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF724791601437D006659FF /* Cocoa.framework */; };
+		DDF724A41601437D006659FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF724A21601437D006659FF /* InfoPlist.strings */; };
+		DDF724A71601437D006659FF /* CaptureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724A61601437D006659FF /* CaptureTestTests.m */; };
+		DDF724B1160143A4006659FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF724B0160143A4006659FF /* AVFoundation.framework */; };
+		DDF724B416014965006659FF /* AVCaptureVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724B316014964006659FF /* AVCaptureVideoPreviewView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF7249D1601437D006659FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF7246C1601437C006659FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF724741601437D006659FF;
+			remoteInfo = CaptureTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDF724751601437D006659FF /* CaptureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF724791601437D006659FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DDF7247C1601437D006659FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DDF7247D1601437D006659FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDF7247E1601437D006659FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDF724811601437D006659FF /* CaptureTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaptureTest-Info.plist"; sourceTree = "<group>"; };
+		DDF724831601437D006659FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDF724851601437D006659FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF724871601437D006659FF /* CaptureTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaptureTest-Prefix.pch"; sourceTree = "<group>"; };
+		DDF724891601437D006659FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DDF7248B1601437D006659FF /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		DDF7248C1601437D006659FF /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		DDF7248F1601437D006659FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDF724921601437D006659FF /* CaptureTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptureTest.xcdatamodel; sourceTree = "<group>"; };
+		DDF724991601437D006659FF /* CaptureTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptureTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF7249A1601437D006659FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDF724A11601437D006659FF /* CaptureTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaptureTestTests-Info.plist"; sourceTree = "<group>"; };
+		DDF724A31601437D006659FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDF724A51601437D006659FF /* CaptureTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureTestTests.h; sourceTree = "<group>"; };
+		DDF724A61601437D006659FF /* CaptureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureTestTests.m; sourceTree = "<group>"; };
+		DDF724B0160143A4006659FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDF724B216014964006659FF /* AVCaptureVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureVideoPreviewView.h; sourceTree = "<group>"; };
+		DDF724B316014964006659FF /* AVCaptureVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureVideoPreviewView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF724721601437D006659FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF724B1160143A4006659FF /* AVFoundation.framework in Frameworks */,
+				DDF7247A1601437D006659FF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF724951601437D006659FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7249B1601437D006659FF /* SenTestingKit.framework in Frameworks */,
+				DDF7249C1601437D006659FF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF7246A1601437C006659FF = {
+			isa = PBXGroup;
+			children = (
+				DDF7247F1601437D006659FF /* CaptureTest */,
+				DDF7249F1601437D006659FF /* CaptureTestTests */,
+				DDF724781601437D006659FF /* Frameworks */,
+				DDF724761601437D006659FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF724761601437D006659FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724751601437D006659FF /* CaptureTest.app */,
+				DDF724991601437D006659FF /* CaptureTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF724781601437D006659FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724B0160143A4006659FF /* AVFoundation.framework */,
+				DDF724791601437D006659FF /* Cocoa.framework */,
+				DDF7249A1601437D006659FF /* SenTestingKit.framework */,
+				DDF7247B1601437D006659FF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF7247B1601437D006659FF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7247C1601437D006659FF /* AppKit.framework */,
+				DDF7247D1601437D006659FF /* CoreData.framework */,
+				DDF7247E1601437D006659FF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DDF7247F1601437D006659FF /* CaptureTest */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7248B1601437D006659FF /* PCAppDelegate.h */,
+				DDF7248C1601437D006659FF /* PCAppDelegate.m */,
+				DDF7248E1601437D006659FF /* MainMenu.xib */,
+				DDF724911601437D006659FF /* CaptureTest.xcdatamodeld */,
+				DDF724801601437D006659FF /* Supporting Files */,
+				DDF724B216014964006659FF /* AVCaptureVideoPreviewView.h */,
+				DDF724B316014964006659FF /* AVCaptureVideoPreviewView.m */,
+			);
+			path = CaptureTest;
+			sourceTree = "<group>";
+		};
+		DDF724801601437D006659FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724811601437D006659FF /* CaptureTest-Info.plist */,
+				DDF724821601437D006659FF /* InfoPlist.strings */,
+				DDF724851601437D006659FF /* main.m */,
+				DDF724871601437D006659FF /* CaptureTest-Prefix.pch */,
+				DDF724881601437D006659FF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF7249F1601437D006659FF /* CaptureTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724A51601437D006659FF /* CaptureTestTests.h */,
+				DDF724A61601437D006659FF /* CaptureTestTests.m */,
+				DDF724A01601437D006659FF /* Supporting Files */,
+			);
+			path = CaptureTestTests;
+			sourceTree = "<group>";
+		};
+		DDF724A01601437D006659FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724A11601437D006659FF /* CaptureTestTests-Info.plist */,
+				DDF724A21601437D006659FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF724741601437D006659FF /* CaptureTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF724AA1601437D006659FF /* Build configuration list for PBXNativeTarget "CaptureTest" */;
+			buildPhases = (
+				DDF724711601437D006659FF /* Sources */,
+				DDF724721601437D006659FF /* Frameworks */,
+				DDF724731601437D006659FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptureTest;
+			productName = CaptureTest;
+			productReference = DDF724751601437D006659FF /* CaptureTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF724981601437D006659FF /* CaptureTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF724AD1601437D006659FF /* Build configuration list for PBXNativeTarget "CaptureTestTests" */;
+			buildPhases = (
+				DDF724941601437D006659FF /* Sources */,
+				DDF724951601437D006659FF /* Frameworks */,
+				DDF724961601437D006659FF /* Resources */,
+				DDF724971601437D006659FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF7249E1601437D006659FF /* PBXTargetDependency */,
+			);
+			name = CaptureTestTests;
+			productName = CaptureTestTests;
+			productReference = DDF724991601437D006659FF /* CaptureTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF7246C1601437C006659FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gavin Williams";
+			};
+			buildConfigurationList = DDF7246F1601437C006659FF /* Build configuration list for PBXProject "CaptureTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDF7246A1601437C006659FF;
+			productRefGroup = DDF724761601437D006659FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF724741601437D006659FF /* CaptureTest */,
+				DDF724981601437D006659FF /* CaptureTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF724731601437D006659FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF724841601437D006659FF /* InfoPlist.strings in Resources */,
+				DDF7248A1601437D006659FF /* Credits.rtf in Resources */,
+				DDF724901601437D006659FF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF724961601437D006659FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF724A41601437D006659FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDF724971601437D006659FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF724711601437D006659FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF724861601437D006659FF /* main.m in Sources */,
+				DDF7248D1601437D006659FF /* PCAppDelegate.m in Sources */,
+				DDF724931601437D006659FF /* CaptureTest.xcdatamodeld in Sources */,
+				DDF724B416014965006659FF /* AVCaptureVideoPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF724941601437D006659FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF724A71601437D006659FF /* CaptureTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF7249E1601437D006659FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF724741601437D006659FF /* CaptureTest */;
+			targetProxy = DDF7249D1601437D006659FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF724821601437D006659FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF724831601437D006659FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDF724881601437D006659FF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF724891601437D006659FF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DDF7248E1601437D006659FF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF7248F1601437D006659FF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DDF724A21601437D006659FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF724A31601437D006659FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF724A81601437D006659FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DDF724A91601437D006659FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDF724AB1601437D006659FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureTest/CaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "CaptureTest/CaptureTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDF724AC1601437D006659FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureTest/CaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "CaptureTest/CaptureTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDF724AE1601437D006659FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaptureTest.app/Contents/MacOS/CaptureTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureTest/CaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "CaptureTestTests/CaptureTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DDF724AF1601437D006659FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaptureTest.app/Contents/MacOS/CaptureTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureTest/CaptureTest-Prefix.pch";
+				INFOPLIST_FILE = "CaptureTestTests/CaptureTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF7246F1601437C006659FF /* Build configuration list for PBXProject "CaptureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF724A81601437D006659FF /* Debug */,
+				DDF724A91601437D006659FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF724AA1601437D006659FF /* Build configuration list for PBXNativeTarget "CaptureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF724AB1601437D006659FF /* Debug */,
+				DDF724AC1601437D006659FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF724AD1601437D006659FF /* Build configuration list for PBXNativeTarget "CaptureTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF724AE1601437D006659FF /* Debug */,
+				DDF724AF1601437D006659FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDF724911601437D006659FF /* CaptureTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDF724921601437D006659FF /* CaptureTest.xcdatamodel */,
+			);
+			currentVersion = DDF724921601437D006659FF /* CaptureTest.xcdatamodel */;
+			path = CaptureTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDF7246C1601437C006659FF /* Project object */;
+}
